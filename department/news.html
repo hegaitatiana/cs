@@ -112,27 +112,27 @@
 </div>
 
 	<!-- Scripts -->
-	<script rel="text/javascript" src="js/jquery-1.9.0.min.js"></script>	
-	<!-- For IE 6,7 -->
-	
-	<script type="text/javascript"> 
+	<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>	
+	<script type="text/javascript" src="../js/highlight.js"></script>
+
+	<script type="text/javascript">
+
 		sfHover = function() {
-			var sfEls = document.getElementById("nav").getElementsByTagName("LI");
-			for (var i=0; i<sfEls.length; i++) {
-				sfEls[i].onmouseover=function() {
-					this.className+=" sfhover";
-				};
-				sfEls[i].onmouseout=function() {
-					this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
-				};
-			}
+		alert("0");
+		var sfEls = document.getElementById("nav").getElementsByTagName("li");
+
+		for (var i=0; i<sfEls.length; i++) {
+			sfEls[i].onmouseover=function() {
+				this.className=this.className.replace(new RegExp(" current\\b"), "");
+			};
+			sfEls[i].onmouseout=function() {				
+				this.className+=" current";
+			};
+		}
 		};
+		
 		if (window.attachEvent) window.attachEvent("onload", sfHover);
 
-
-		var url = window.location; // get current URL\
-		alert(url);
-		$('#nav ul li ul li a[href="'+url+'"]').addClass('active');
 	</script>
 	
 </body>

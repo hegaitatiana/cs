@@ -120,6 +120,9 @@ p.main {
 					text-align: left;
 					color: #dcdcdc;
 				}
+					#nav ul li.current ul li.current a {
+						color: #33b5e5;
+					}
 					#nav ul li:hover ul li a:hover, 
 					#nav ul li.sfhover ul li a:hover {
 						color: #32b9e7;						

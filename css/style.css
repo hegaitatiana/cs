@@ -86,7 +86,8 @@ p.main {
 			#nav ul li:hover ul#program, 
 			#nav ul li.sfhover ul#program,
 			#nav ul li.current ul#program {
-				background-position-x: 68px;
+				background-position-x: 5px;
+				right: 75px
 
 			} 
 
@@ -100,8 +101,7 @@ p.main {
 			#nav ul li:hover ul#calendar, 
 			#nav ul li.sfhover ul#calendar,
 			#nav ul li.current ul#calendar {
-				background-position-x: center;
-				right: 35px;
+				background-position-x: 260px;
 			} 
 
 			#nav ul li:hover ul li, 

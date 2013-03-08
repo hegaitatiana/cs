@@ -149,6 +149,9 @@ div #majors, #minors {
 	font-size: 1.3em;
 }
 
+div#given-courses {
+	font-size: 1.15em;
+}
 images {
   color: transparent;
   font-size: 0;

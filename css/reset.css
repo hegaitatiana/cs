@@ -132,6 +132,23 @@ strong {
   font-weight: bold;
 }
 
+h2 {
+	margin-top: 1em;
+}
+
+div.top {
+	margin: 1em 0 1em 0;
+	font-size: 12px;
+	text-align: right;
+}
+div #majors, #minors {
+	text-align: center;
+}
+
+#majors a, #minors a {
+	font-size: 1.3em;
+}
+
 images {
   color: transparent;
   font-size: 0;
@@ -162,10 +179,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+table a {
+	text-decoration: none;
+}
+table a:hover {
+	color: #F60;
+}
 
-th,
-td,
-caption {
+th,td,caption {
   font-weight: normal;
   vertical-align: center;
   text-align: left;
